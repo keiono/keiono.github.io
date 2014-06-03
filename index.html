@@ -1,55 +1,183 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width">
-    <title>Viz / Code
-    </title>
-    <link rel="alternate" href="http://localhost:8000/feed.xml" type="application/rss+xml" title="keiono's portal">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300">
-    <link rel="stylesheet" href="/css/main.css">
-  </head>
-  <body>
-    <header class="header">
-      <div class="content-wrap">
-        <div class="logo">
-          <h1><a href="http://localhost:8000">Viz / Code</a></h1>
-          <p class="description">keiono's portal</p>
-        </div>
-        <section class="about"><p>Keiichiro Ono is a software engineer working at <a href="http://idekerlab.ucsd.edu/Pages/default.aspx">UCSD Trey Ideker Lab</a> and his main project is <a href="http://www.cytoscape.org/">Cytoscape</a>.</p>
-<p><strong>This web site is still under development</strong></p>
-<ul>
-<li><a href="https://www.linkedin.com/in/keiono">Linked-in</a></li>
-<li><a href="https://twitter.com/c_z">Twitter</a> (Mostly Japanese)</li>
-<li><a href="https://www.google.com/+KeiichiroOno">Google+</a></li>
-</ul>
+<!DOCTYPE HTML>
+<!--
+    The design of this web site is based-on the following template:
 
-        </section>
-      </div>
-    </header>
-    <div id="content">
-      <div class="content-wrap">
-        <article class="article intro">
-          <header>
-            <p class="date"><span>14. May 2014</span></p>
-            <h2><a href="/articles/About/">About</a></h2>
-          </header>
-          <section class="content"><p>Still under&nbsp;construction…</p>
+	Twenty 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Data/Code/Viz</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="Keiichiro Ono's Portal"/>
+    <meta name="keywords" content="cytoscape,dataviz,data visualization,bioinformatics,d3.js"/>
+    <!--[if lte IE 8]>
+    <script src="css/ie/html5shiv.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.dropotron.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/skel-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style-noscript.css"/>
+    </noscript>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie/v8.css"/><![endif]-->
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="css/ie/v9.css"/><![endif]-->
+</head>
+<body class="index loading">
 
-          </section>
-        </article>
-      </div>
+<section id="banner">
+    <div class="inner">
+        <header>
+            <h2>DATA/CODE/VIZ</h2>
+        </header>
+        <p>
+            Keiichiro Ono: a programmer
+        </p>
+        <ul class="icons">
+            <li><a href="https://www.linkedin.com/in/keiono" class="icon circle fa-linkedin"><span class="label">Linkedin</span></a></li>
+            <li><a href="https://github.com/keiono" class="icon circle fa-github"><span class="label">Github</span></a></li>
+            <li><a href="https://twitter.com/c_z" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.google.com/+KeiichiroOno" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
+        </ul>
+        <ul class="buttons">
+            <li><a href="#main" class="button scrolly">about</a></li>
+            <li><a href="#projects" class="button scrolly">projects</a></li>
+            <li><a href="#cta" class="button scrolly">visualizations</a></li>
+        </ul>
     </div>
-    <footer>
-      <div class="content-wrap">
-        <div class="nav"><a href="/archive.html">« Archives</a>
+</section>
+
+<article id="main">
+    <section class="wrapper style2 container special-alt">
+
+        <div class="row half">
+            <div class="7u">
+                <header>
+                    <h1>About</h1>
+                    <p>
+                        Keiichiro Ono is a software developer working at
+                        <a href="http://idekerlab.ucsd.edu/Pages/default.aspx">
+                        University of
+                        California, San Diego Department of Medicine</a>.
+                        He is a core developer of Cytoscape, and a NRNB stuff engineer.
+                    </p>
+                </header>
+
+
+                <h2>Recent Publications</h2>
+                <ul>
+                    <li>(Coming Soon...)</li>
+                </ul>
+                <ul class="buttons">
+                    <li><a href="#" class="button">Complete CV (Coming Soon)</a></li>
+                </ul>
+            </div>
+            <div class="5u">
+                <h2>Area of Interest</h2>
+                <ul>
+                    <li>Programming</li>
+                    <li>Data Visualization</li>
+                    <li>Bioinformatics</li>
+                    <li>Complex Network Analysis</li>
+                </ul>
+                <img src="images/flat-logo-orange.svg" width="300px">
+            </div>
         </div>
-        <section class="copy">
-          <p>&copy; 2014 Keiichiro Ono &mdash; powered by&nbsp;<a href="https://github.com/jnordberg/wintersmith">Wintersmith</a>
-          </p>
-        </section>
-      </div>
-    </footer>
-  </body>
+    </section>
+</article>
+
+<div id="projects" class="style3">
+    <section class="container special">
+
+        <header class="major">
+            <h1>Projects</h1>
+        </header>
+
+        <div class="row">
+            <div class="6u">
+
+                <section>
+                    <header>
+                        <h3>Cytoscape</h3>
+                    </header>
+                    <p>
+                        (Coming Soon...)
+                    </p>
+                </section>
+
+            </div>
+            <div class="6u">
+
+                <section>
+                    <header>
+                        <h3>NeXO Web</h3>
+                    </header>
+                    <p>
+                        (Coming Soon...)
+                    </p>
+                </section>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="6u">
+
+                <section>
+                    <header>
+                        <h3>Web-Based Visualizations</h3>
+                    </header>
+                </section>
+
+            </div>
+            <div class="6u">
+
+                <section>
+                    <header>
+                        <h3>Gluing Bioinformatics Tools</h3>
+                    </header>
+                </section>
+
+            </div>
+        </div>
+    </section>
+</div>
+
+<!-- CTA -->
+<section id="cta">
+    <header>
+        <h1>Data Visualizations</h1>
+
+        <p>
+            Coming Soon...
+        </p>
+    </header>
+    <ul class="buttons">
+        <li><a href="#cta" class="button">Static</a></li>
+        <li><a href="#cta" class="button">Interactive</a></li>
+    </ul>
+
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+    <span class="copyright">&copy;2014 Keiichiro Ono. All rights reserved.</span>
+</footer>
+
+<script>
+    $(function () {
+        $(window).resize(function () {
+            $('#banner').height($(window).height());
+            $('#cta').height($(window).height());
+        });
+        $(window).resize();
+    });
+</script>
+
+</body>
 </html>
